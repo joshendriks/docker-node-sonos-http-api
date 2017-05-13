@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM resin/raspberry-pi2-alpine-node:6
 
 WORKDIR /app
 
@@ -10,8 +10,6 @@ RUN apk --no-cache add tar curl && \
   rm -rf /tmp/* /root/.npm
 
 EXPOSE 5005
-
-USER node
 
 HEALTHCHECK --interval=1m --timeout=2s \
   CMD curl -LSs http://localhost:5005 || exit 1
