@@ -1,0 +1,26 @@
+{  
+   "maintainer":"joshendriks",
+   "images":[  
+      {  
+         "image":"docker-raspberry-pi-node-sonos-http-api",
+         "baseimage":"resin/raspberry-pi-alpine-node",
+         "tags":[  
+            "6"
+         ]
+      },
+      {  
+         "image":"docker-raspberry-pi2-node-sonos-http-api",
+         "baseimage":"resin/raspberry-pi2-alpine-node",
+         "tags":[
+            "6"
+         ]
+      },
+      {  
+         "image":"docker-raspberry-pi3-node-sonos-http-api",
+         "baseimage":"resin/raspberry-pi3-alpine-node",
+         "tags":[
+            "6"
+         ]
+      }
+   ]
+}
