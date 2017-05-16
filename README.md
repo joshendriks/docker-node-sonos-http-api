@@ -2,7 +2,9 @@
 Docker wrapper for https://github.com/jishi/node-sonos-http-api
 
 ![](http://dockeri.co/image/joshendriks/docker-raspberry-pi-node-sonos-http-api)
+
 ![](http://dockeri.co/image/joshendriks/docker-raspberry-pi2-node-sonos-http-api)
+
 ![](http://dockeri.co/image/joshendriks/docker-raspberry-pi3-node-sonos-http-api)
 
 ## Usage
